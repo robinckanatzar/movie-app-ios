@@ -59,7 +59,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="znm-MT-P2G"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Friends" id="yf9-Dx-ZII"/>
+                    <tabBarItem key="tabBarItem" title="My Friends" image="friends" id="yf9-Dx-ZII"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJP-5f-wqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,13 +87,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4J3-bk-sKD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Lists" id="9x4-Q2-5cp"/>
+                    <tabBarItem key="tabBarItem" title="My Lists" image="user" id="9x4-Q2-5cp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6xh-pJ-gBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1898" y="1151"/>
         </scene>
-        <!--Search Movies-->
+        <!--Search-->
         <scene sceneID="Sye-QP-QQA">
             <objects>
                 <viewController storyboardIdentifier="SearchMoviesViewController" id="ubk-1g-V6V" customClass="SearchMoviesViewController" customModule="movieapp" sceneMemberID="viewController">
@@ -115,7 +115,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EGE-6Z-Feb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search Movies" id="1rI-Ko-L0J"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="search" id="1rI-Ko-L0J"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYm-T5-l6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,4 +195,9 @@
             <point key="canvasLocation" x="956" y="136"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="friends" width="36" height="36"/>
+        <image name="search" width="36" height="36"/>
+        <image name="user" width="36" height="36"/>
+    </resources>
 </document>
