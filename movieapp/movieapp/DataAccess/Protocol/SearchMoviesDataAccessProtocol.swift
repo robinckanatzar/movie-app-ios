@@ -9,5 +9,6 @@
 import Foundation
 
 protocol SearchMoviesDataAccessProtocol: DataAccessProtocol {
-    
+    var movieList: Observable<[Movie]> { get }
+    func fetchResults(with query: String, completion: @escaping (ServiceError?) -> Void)
 }

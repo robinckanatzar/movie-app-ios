@@ -9,4 +9,5 @@
 import Foundation
 
 protocol SearchMoviesServiceProtocol {
+    func fetchResults(with query: String, completion: @escaping ServiceResultCompletion<[Movie]>)
 }

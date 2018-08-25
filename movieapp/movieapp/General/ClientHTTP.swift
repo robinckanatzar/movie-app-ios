@@ -14,7 +14,7 @@ class ClientHTTP: ClientHTTPProtocol {
     
     // MARK: - Constant
     private enum Constant {
-        static let baseURL = "https://excowalk.bewalk.io/api/" // TODO Change to The Movie DB url
+        static let baseURL = "https://api.themoviedb.org/3/"
         
         // Firebase
         static let firebaseURL = "https://example-chat-e86a5.firebaseio.com/" // TODO Change to new firebase instance
