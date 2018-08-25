@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		6B2AC5BC213117FE00F1C416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */; };
-		6B2AC5BE213117FE00F1C416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BD213117FE00F1C416 /* ViewController.swift */; };
 		6B2AC5C1213117FE00F1C416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BF213117FE00F1C416 /* Main.storyboard */; };
 		6B2AC5C3213117FF00F1C416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5C2213117FF00F1C416 /* Assets.xcassets */; };
 		6B2AC5C6213117FF00F1C416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5C4213117FF00F1C416 /* LaunchScreen.storyboard */; };
+		6B2AC5CE21311AA600F1C416 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5CD21311AA600F1C416 /* SplashScreenViewController.swift */; };
+		6B2AC5D021311AB700F1C416 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5CF21311AB700F1C416 /* LoginScreenViewController.swift */; };
+		6B2AC5D221311ACD00F1C416 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5D121311ACD00F1C416 /* ForgotPasswordViewController.swift */; };
+		6B2AC5D421311AF200F1C416 /* SearchMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5D321311AF200F1C416 /* SearchMoviesViewController.swift */; };
+		6B2AC5D621311AFF00F1C416 /* MyListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5D521311AFF00F1C416 /* MyListsViewController.swift */; };
+		6B2AC5D821311B0C00F1C416 /* MyFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5D721311B0C00F1C416 /* MyFriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B2AC5B8213117FE00F1C416 /* movieapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B2AC5BD213117FE00F1C416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B2AC5C0213117FE00F1C416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B2AC5C2213117FF00F1C416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2AC5C5213117FF00F1C416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B2AC5C7213117FF00F1C416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2AC5CD21311AA600F1C416 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		6B2AC5CF21311AB700F1C416 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		6B2AC5D121311ACD00F1C416 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		6B2AC5D321311AF200F1C416 /* SearchMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMoviesViewController.swift; sourceTree = "<group>"; };
+		6B2AC5D521311AFF00F1C416 /* MyListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewController.swift; sourceTree = "<group>"; };
+		6B2AC5D721311B0C00F1C416 /* MyFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */,
-				6B2AC5BD213117FE00F1C416 /* ViewController.swift */,
 				6B2AC5BF213117FE00F1C416 /* Main.storyboard */,
 				6B2AC5C2213117FF00F1C416 /* Assets.xcassets */,
 				6B2AC5C4213117FF00F1C416 /* LaunchScreen.storyboard */,
 				6B2AC5C7213117FF00F1C416 /* Info.plist */,
+				6B2AC5CD21311AA600F1C416 /* SplashScreenViewController.swift */,
+				6B2AC5CF21311AB700F1C416 /* LoginScreenViewController.swift */,
+				6B2AC5D121311ACD00F1C416 /* ForgotPasswordViewController.swift */,
+				6B2AC5D321311AF200F1C416 /* SearchMoviesViewController.swift */,
+				6B2AC5D521311AFF00F1C416 /* MyListsViewController.swift */,
+				6B2AC5D721311B0C00F1C416 /* MyFriendsViewController.swift */,
 			);
 			path = movieapp;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B2AC5BE213117FE00F1C416 /* ViewController.swift in Sources */,
+				6B2AC5D821311B0C00F1C416 /* MyFriendsViewController.swift in Sources */,
+				6B2AC5D221311ACD00F1C416 /* ForgotPasswordViewController.swift in Sources */,
 				6B2AC5BC213117FE00F1C416 /* AppDelegate.swift in Sources */,
+				6B2AC5D621311AFF00F1C416 /* MyListsViewController.swift in Sources */,
+				6B2AC5D021311AB700F1C416 /* LoginScreenViewController.swift in Sources */,
+				6B2AC5D421311AF200F1C416 /* SearchMoviesViewController.swift in Sources */,
+				6B2AC5CE21311AA600F1C416 /* SplashScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
