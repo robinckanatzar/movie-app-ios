@@ -2,7 +2,10 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-# OS X
+## Private Key File
+*PrivateKeys.plist
+
+## OS X
 .DS_Store
 
 ## Build generated
