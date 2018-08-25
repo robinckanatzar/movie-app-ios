@@ -79,19 +79,164 @@
 		6B2AC5BA213117FE00F1C416 /* movieapp */ = {
 			isa = PBXGroup;
 			children = (
+				6B2AC5DF21311EB600F1C416 /* Util */,
+				6B2AC5DE21311EB000F1C416 /* Service */,
+				6B2AC5DD21311EAA00F1C416 /* Screen */,
+				6B2AC5DC21311EA500F1C416 /* Resource */,
+				6B2AC5DB21311E9A00F1C416 /* Model */,
+				6B2AC5D921311E8600F1C416 /* DataAccess */,
+				6B2AC5DA21311E9000F1C416 /* General */,
 				6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */,
-				6B2AC5BF213117FE00F1C416 /* Main.storyboard */,
-				6B2AC5C2213117FF00F1C416 /* Assets.xcassets */,
-				6B2AC5C4213117FF00F1C416 /* LaunchScreen.storyboard */,
-				6B2AC5C7213117FF00F1C416 /* Info.plist */,
-				6B2AC5CD21311AA600F1C416 /* SplashScreenViewController.swift */,
-				6B2AC5CF21311AB700F1C416 /* LoginScreenViewController.swift */,
-				6B2AC5D121311ACD00F1C416 /* ForgotPasswordViewController.swift */,
-				6B2AC5D321311AF200F1C416 /* SearchMoviesViewController.swift */,
-				6B2AC5D521311AFF00F1C416 /* MyListsViewController.swift */,
-				6B2AC5D721311B0C00F1C416 /* MyFriendsViewController.swift */,
 			);
 			path = movieapp;
+			sourceTree = "<group>";
+		};
+		6B2AC5D921311E8600F1C416 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5E621311F3400F1C416 /* Protocol */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		6B2AC5DA21311E9000F1C416 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		6B2AC5DB21311E9A00F1C416 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = movieapp/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B2AC5DC21311EA500F1C416 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5E921311F8500F1C416 /* Generated */,
+				6B2AC5E821311F7B00F1C416 /* Fonts */,
+				6B2AC5E721311F5F00F1C416 /* Storyboards */,
+				6B2AC5C7213117FF00F1C416 /* Info.plist */,
+				6B2AC5C2213117FF00F1C416 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6B2AC5DD21311EAA00F1C416 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5E521311F1800F1C416 /* Splash */,
+				6B2AC5E421311F1300F1C416 /* SearchMovies */,
+				6B2AC5E321311F0F00F1C416 /* MyLists */,
+				6B2AC5E221311F0A00F1C416 /* MyFriends */,
+				6B2AC5E121311F0600F1C416 /* Login */,
+				6B2AC5E021311F0100F1C416 /* ForgotPassword */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		6B2AC5DE21311EB000F1C416 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5EA21311FA000F1C416 /* Protocol */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6B2AC5DF21311EB600F1C416 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6B2AC5E021311F0100F1C416 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5D121311ACD00F1C416 /* ForgotPasswordViewController.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		6B2AC5E121311F0600F1C416 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5CF21311AB700F1C416 /* LoginScreenViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6B2AC5E221311F0A00F1C416 /* MyFriends */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5D721311B0C00F1C416 /* MyFriendsViewController.swift */,
+			);
+			path = MyFriends;
+			sourceTree = "<group>";
+		};
+		6B2AC5E321311F0F00F1C416 /* MyLists */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5D521311AFF00F1C416 /* MyListsViewController.swift */,
+			);
+			path = MyLists;
+			sourceTree = "<group>";
+		};
+		6B2AC5E421311F1300F1C416 /* SearchMovies */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5D321311AF200F1C416 /* SearchMoviesViewController.swift */,
+			);
+			path = SearchMovies;
+			sourceTree = "<group>";
+		};
+		6B2AC5E521311F1800F1C416 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5CD21311AA600F1C416 /* SplashScreenViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6B2AC5E621311F3400F1C416 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6B2AC5E721311F5F00F1C416 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC5C4213117FF00F1C416 /* LaunchScreen.storyboard */,
+				6B2AC5BF213117FE00F1C416 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6B2AC5E821311F7B00F1C416 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6B2AC5E921311F8500F1C416 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		6B2AC5EA21311FA000F1C416 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		ED9F6B1A70B74F32B24278F9 /* Pods */ = {
