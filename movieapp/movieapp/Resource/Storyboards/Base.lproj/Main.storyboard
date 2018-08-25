@@ -93,7 +93,7 @@
             </objects>
             <point key="canvasLocation" x="1898" y="1151"/>
         </scene>
-        <!--Search-->
+        <!--Search Movies-->
         <scene sceneID="Sye-QP-QQA">
             <objects>
                 <viewController storyboardIdentifier="SearchMoviesViewController" id="ubk-1g-V6V" customClass="SearchMoviesViewController" customModule="movieapp" sceneMemberID="viewController">
@@ -115,7 +115,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EGE-6Z-Feb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="search" id="1rI-Ko-L0J"/>
+                    <tabBarItem key="tabBarItem" title="Search Movies" image="search" id="1rI-Ko-L0J"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYm-T5-l6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
