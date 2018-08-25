@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B0CEC212131A77700E35EB4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CEC202131A77700E35EB4 /* TabBarViewController.swift */; };
+		6B0CEC252131ACBE00E35EB4 /* PrivateKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CEC242131ACBE00E35EB4 /* PrivateKeys.plist */; };
 		6B2AC5BC213117FE00F1C416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */; };
 		6B2AC5C1213117FE00F1C416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BF213117FE00F1C416 /* Main.storyboard */; };
 		6B2AC5C3213117FF00F1C416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5C2213117FF00F1C416 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		6B0CEC202131A77700E35EB4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6B0CEC242131ACBE00E35EB4 /* PrivateKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivateKeys.plist; sourceTree = "<group>"; };
 		6B2AC5B8213117FE00F1C416 /* movieapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B2AC5C0213117FE00F1C416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				6B2AC5E721311F5F00F1C416 /* Storyboards */,
 				6B2AC5C7213117FF00F1C416 /* Info.plist */,
 				6B2AC5C2213117FF00F1C416 /* Assets.xcassets */,
+				6B0CEC242131ACBE00E35EB4 /* PrivateKeys.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 			files = (
 				6B2AC5C6213117FF00F1C416 /* LaunchScreen.storyboard in Resources */,
 				6B2AC5C3213117FF00F1C416 /* Assets.xcassets in Resources */,
+				6B0CEC252131ACBE00E35EB4 /* PrivateKeys.plist in Resources */,
 				6B2AC5C1213117FE00F1C416 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
