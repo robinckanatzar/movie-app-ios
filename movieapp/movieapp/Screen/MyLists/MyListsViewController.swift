@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyListsViewController: UIViewController {
+class MyListsViewController: ViewController<MyListsViewModel> {
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  LoginScreenViewController.swift
+//  SplashViewController.swift
 //  movieapp
 //
 //  Created by Robin Kanatzar on 8/25/18.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class SplashViewController: ViewController<SplashViewModel> {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
-    
 }
+

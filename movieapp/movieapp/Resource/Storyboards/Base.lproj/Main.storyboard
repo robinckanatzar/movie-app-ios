@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Splash Screen View Controller-->
+        <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SplashScreenViewController" customModule="movieapp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="movieapp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
         <!--My Friends-->
         <scene sceneID="dzl-qu-3b5">
             <objects>
-                <viewController id="Nle-Sl-KCo" customClass="MyFriendsViewController" customModule="movieapp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyFriendsViewController" id="Nle-Sl-KCo" customClass="MyFriendsViewController" customModule="movieapp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PGL-YQ-Fq9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--My Lists-->
         <scene sceneID="oqB-DG-AtM">
             <objects>
-                <viewController id="1ag-OL-FMX" customClass="MyListsViewController" customModule="movieapp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyListsViewController" id="1ag-OL-FMX" customClass="MyListsViewController" customModule="movieapp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3bB-5s-AwF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,7 +96,7 @@
         <!--Search Movies-->
         <scene sceneID="Sye-QP-QQA">
             <objects>
-                <viewController id="ubk-1g-V6V" customClass="SearchMoviesViewController" customModule="movieapp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchMoviesViewController" id="ubk-1g-V6V" customClass="SearchMoviesViewController" customModule="movieapp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lmN-Tc-Dc9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,7 +124,7 @@
         <!--Forgot Password View Controller-->
         <scene sceneID="P1Y-It-7hg">
             <objects>
-                <viewController id="8le-wf-LYx" customClass="ForgotPasswordViewController" customModule="movieapp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgotPasswordViewController" id="8le-wf-LYx" customClass="ForgotPasswordViewController" customModule="movieapp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0cd-9n-cR9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +151,7 @@
         <!--Login View Controller-->
         <scene sceneID="oKM-cR-Sem">
             <objects>
-                <viewController id="uAY-Ar-b9r" customClass="LoginViewController" customModule="movieapp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="uAY-Ar-b9r" customClass="LoginViewController" customModule="movieapp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EwU-cs-4Ry">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

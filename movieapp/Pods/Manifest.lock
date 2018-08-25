@@ -31,6 +31,7 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.4)
   - GTMSessionFetcher/Core (1.1.15)
   - leveldb-library (1.20)
+  - lottie-ios (2.5.0)
   - Marshal (1.2.4)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
@@ -47,6 +48,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - lottie-ios
   - Marshal (~> 1.2.4)
   - SwiftGen (~> 5.2.1)
   - SwiftKeychainWrapper (~> 3.0.1)
@@ -65,6 +67,7 @@ SPEC REPOS:
     - GoogleToolboxForMac
     - GTMSessionFetcher
     - leveldb-library
+    - lottie-ios
     - Marshal
     - nanopb
     - SwiftGen
@@ -83,6 +86,7 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   SwiftGen: 444b4c467e512a4812b8a800d731643fd265139e
@@ -90,6 +94,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   Swinject: afea49fd95f392b41171669f165842879c48fad6
 
-PODFILE CHECKSUM: ad820d8320b2df1129f6bf05c710d41a9154ef78
+PODFILE CHECKSUM: 9d6992125f675a038e7bc7414f7e53e39216c368
 
 COCOAPODS: 1.5.3

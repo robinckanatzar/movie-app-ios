@@ -10,12 +10,34 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    // MARK - Constants
+    private enum Constant {
+        static let firstScreenToLaunch = SplashViewController.self
+    }
 
+    // MARK - Variables
     var window: UIWindow?
+    var container: AppContainer?
+    
+    private var screenResolver: ScreenResolverProtocol {
+        guard let screenResolver = container?.resolve(ScreenResolverProtocol.self) else {
+            fatalError("screenResolver should be ready")
+        }
+        return screenResolver
+    }
 
-
+    // MARK - Delegates Methods
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        instantiateWindow()
+        let navigationController = UINavigationController()
+        container = AppContainer(navigationController: navigationController)
+        setupFirstViewController(navigationController, screenResolver: screenResolver)
+        
+        // TODO instantiate Firebase
+        //FirebaseApp.configure()
+        
         return true
     }
 
@@ -41,6 +63,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    // MARK: - Window init
+    private func instantiateWindow() {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.makeKeyAndVisible()
+        self.window = window
+    }
+    
+    // MARK: - First View Controller
+    private func setupFirstViewController(_ navigationController: UINavigationController, screenResolver: ScreenResolverProtocol) {
+        guard let window = self.window else {
+            fatalError("Window should be ready here")
+        }
+        
+        let firstViewController = screenResolver.resolve(screenType: Constant.firstScreenToLaunch)
+        navigationController.setViewControllers([firstViewController], animated: false)
+        window.rootViewController = navigationController
+    }
 }
 
