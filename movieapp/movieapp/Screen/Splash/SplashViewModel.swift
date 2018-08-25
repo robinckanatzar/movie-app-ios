@@ -15,4 +15,8 @@ class SplashViewModel: ViewModel {
         super.init(router: router, authenticationDataAccess: authenticationDataAccess, searchMoviesDataAccess: searchMoviesDataAccess, myListsDataAccess: myListsDataAccess, myFriendsDataAccess: myFriendsDataAccess)
         
     }
+    
+    func displayNextScreen() {
+        router.replaceLast(with: TabBarViewController.self, animated: true)
+    }
 }

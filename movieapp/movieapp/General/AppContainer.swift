@@ -197,6 +197,12 @@ class AppContainer: DependencyContainer {
             vc.viewModel = vm
             return vc
             }.inObjectScope(.weak)
+        
+        // Tab Bar
+        container.register(TabBarViewController.self) { r in
+            let vc = StoryboardScene.Main.tabBarViewController.instantiate()
+            return vc as! TabBarViewController
+            }.inObjectScope(.weak)
     }
 }
 

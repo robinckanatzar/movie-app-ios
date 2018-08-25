@@ -12,6 +12,10 @@ class SplashViewController: ViewController<SplashViewModel> {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) { // change 2 to desired number of seconds
+            self.viewModel.displayNextScreen()
+        }
     }
 }
 

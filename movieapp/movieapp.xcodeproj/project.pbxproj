@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0CEC212131A77700E35EB4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CEC202131A77700E35EB4 /* TabBarViewController.swift */; };
 		6B2AC5BC213117FE00F1C416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */; };
 		6B2AC5C1213117FE00F1C416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5BF213117FE00F1C416 /* Main.storyboard */; };
 		6B2AC5C3213117FF00F1C416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2AC5C2213117FF00F1C416 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B0CEC202131A77700E35EB4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		6B2AC5B8213117FE00F1C416 /* movieapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2AC5BB213117FE00F1C416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B2AC5C0213117FE00F1C416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				6B2AC5E221311F0A00F1C416 /* MyFriends */,
 				6B2AC5E121311F0600F1C416 /* Login */,
 				6B2AC5E021311F0100F1C416 /* ForgotPassword */,
+				6B0CEC202131A77700E35EB4 /* TabBarViewController.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				6B2AC627213129AF00F1C416 /* MyFriendsDataAccessProtocol.swift in Sources */,
 				6B2AC6452131314200F1C416 /* ScreenResolverProtocol.swift in Sources */,
 				6B2AC6002131234F00F1C416 /* ViewController.swift in Sources */,
+				6B0CEC212131A77700E35EB4 /* TabBarViewController.swift in Sources */,
 				6B2AC6212131297700F1C416 /* SearchMoviesService.swift in Sources */,
 				6B2AC5F62131228300F1C416 /* MyListsViewModel.swift in Sources */,
 			);

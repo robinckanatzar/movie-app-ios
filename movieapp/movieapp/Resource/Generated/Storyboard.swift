@@ -61,8 +61,6 @@ enum StoryboardScene {
   enum Main: StoryboardType {
     static let storyboardName = "Main"
 
-    static let initialScene = InitialSceneType<movieapp.SplashViewController>(storyboard: Main.self)
-
     static let forgotPasswordViewController = SceneType<movieapp.ForgotPasswordViewController>(storyboard: Main.self, identifier: "ForgotPasswordViewController")
 
     static let loginViewController = SceneType<movieapp.LoginViewController>(storyboard: Main.self, identifier: "LoginViewController")
@@ -74,6 +72,8 @@ enum StoryboardScene {
     static let searchMoviesViewController = SceneType<movieapp.SearchMoviesViewController>(storyboard: Main.self, identifier: "SearchMoviesViewController")
 
     static let splashViewController = SceneType<movieapp.SplashViewController>(storyboard: Main.self, identifier: "SplashViewController")
+
+    static let tabBarViewController = SceneType<movieapp.TabBarViewController>(storyboard: Main.self, identifier: "TabBarViewController")
   }
 }
 

@@ -12,7 +12,6 @@ class SearchMoviesViewController: ViewController<SearchMoviesViewModel> {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
 }
